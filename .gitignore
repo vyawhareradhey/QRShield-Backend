@@ -1,0 +1,26 @@
+# Ignore Python cache & virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Ignore dataset files (keep them private)
+*.csv
+*.xlsx
+*.json
+
+# Ignore model checkpoints (if needed)
+*.h5
+*.ckpt
+
+# Ignore system & IDE-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Ignore environment files (for security)
+.env
